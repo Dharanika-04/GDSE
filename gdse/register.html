@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo"><img src="pic/logo2-removebg-preview.png"></h2>
+        <nav class="navigation">
+            <a href="home.html">Back to Home</a>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <div class="form-box">
+            <div class="register">
+                <h2>Registration</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input type="text" required>
+                        <label >Username</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label >password</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label >Email</label>
+                    </div>
+                    <div class="input-box">
+                        <form action="#">
+                            <label for="member">Register as:</label>
+                            <select name="rmember" id="rmember" class="rmember">
+                                <option value="Support" class="rmember">Support</option>
+                                <option value="Volunteer" class="rmember">Volunteer</option>
+                                <option value="Eco-Entrepreneur" class="rmember">Eco-Entrepreneur</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">
+                        I agree to the terms and conditions. </label>
+                        <a href="#">Forgot password?</a>
+                    </div>
+                    <a href="login.html" type="submit" class="btn">Register</a>
+                    <div class="login-register">
+                        <p>Already have an account?<a href="login.html" class="login-link">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script/script2.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
